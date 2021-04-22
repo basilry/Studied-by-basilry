@@ -1,0 +1,22 @@
+{
+  "name": "modern-javascript-koans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha modern-js-koans/*.js --sort",
+    "report": "mocha modern-js-koans/*.js --sort --reporter @mochajs/json-file-reporter",
+    "submit": "codestates-submission"
+  },
+  "keywords": [],
+  "author": "codesatates",
+  "dependencies": {
+    "@codestates-cc/submission-npm": "^1.1.3"
+  },
+  "devDependencies": {
+    "@mochajs/json-file-reporter": "^1.2.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "sinon": "^9.0.3"
+  }
+}

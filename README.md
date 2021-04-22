@@ -3,6 +3,7 @@
 * * *
 * 깃관련 처리
   * 레포 폴더/파일 삭제 : git rm -rf '폴더 및 파일명' => git commit -m 'remove file' => 푸쉬
+  * 레포 폴더/파일명 변경 : git mv <oldName> <newName> => 커밋 => 푸쉬
 * TODO
   * 올려야할 파일 목록 : 3-1트위틀러 초반부 목업 >> 3-2유효성 검사 >> 4-1트위틀러 함수작성부분 >> 4-2언더바 >> 4-3stringifyJSON >> 5-1날씨API >> 6-1beesbeesbess >> 6-2subclass Dance Party
 * * *

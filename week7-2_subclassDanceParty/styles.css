@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+
+
+body,
+html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  /* background-color: #444;
+  font-size: 18px; */
+  background-image: url('cssfiles/tomjerryhouse.jpeg');
+  background-size: cover;
+}
+body,
+a:link,
+a:visited,
+a:active {
+  /* color: lightblue; */
+  font-family: 'Yeon Sung', cursive;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+}
+
+.title,
+.addDancerButton {
+  padding: 5px 12px;
+  float: right;
+}
+.lineup{
+  padding: 5px 12px;
+  float: right;
+}
+.spread{
+  padding: 5px 12px;
+  float: right;
+}
+.delete{
+  padding: 5px 12px;
+  float: right;
+}
+.topbar {
+  /* display: flex;
+  flex-direction: column; */
+  /* float: left; */
+
+  /* height: 32px;
+  background-color: #555; */
+}
+.title {
+  background-color: rgb(230, 182, 93)
+}
+.dancer { 
+  /* 크기랑, 인라인블럭으로 바꾸고 */
+  position: absolute;
+  /* transform: translate() */
+  transition: all ease 0.5s;
+
+
+
+  /* animation-iteration-count: infinite; */
+
+}
+
+@keyframes dancer {
+
+
+
+
+} 
+/* 트랜스폼 : 트랜스레이트(px, px) */
+  /* /* position: relative;
+  animation-name: dancer;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+
+
+
+
+.icon0:hover {
+  transform: rotate(45deg);
+}
+.icon1:hover {
+  transform: scale(2);
+}
+.icon2:hover {
+  transform: skewX(45deg);
+}
+.icon3:hover {
+  transform: translate(45px);
+}
+.icon4:hover {
+  transform: rotateX(90deg)
+}
+.icon5:hover {
+  transform: matrix(2, 2, 0, 2, 45, 0);
+}
+.icon6:hover {
+  transform: scaleY(2);
+}
+.icon7:hover {
+  transform: rotateY(45deg);
+}
+
+
+
+
+/* 이걸 가지고 여러 동작을 만들 수 있음 */

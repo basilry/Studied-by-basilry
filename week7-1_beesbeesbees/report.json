@@ -1,0 +1,1348 @@
+{
+  "stats": {
+    "suites": 12,
+    "tests": 95,
+    "passes": 95,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-12T01:48:23.728Z",
+    "end": "2021-04-12T01:48:23.761Z",
+    "duration": 33
+  },
+  "tests": [
+    {
+      "title": "should have an `age` property that is set to `5`",
+      "fullTitle": "Bee class functionality should have an `age` property that is set to `5`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `yellow`",
+      "fullTitle": "Bee class functionality should have a `color` property that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "Bee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "Bee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `Keep on growing`",
+      "fullTitle": "Bee class functionality should have a `job` property that is set to `Keep on growing`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `10`",
+      "fullTitle": "ForagerBee class functionality should have an `age` property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `find pollen`",
+      "fullTitle": "ForagerBee class functionality should have a `job` property that is set to `find pollen`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "ForagerBee class functionality should have a `color` property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `canFly` property that is set `true`",
+      "fullTitle": "ForagerBee class functionality should have a `canFly` property that is set `true`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `treasureChest` property that is set to an empty array `[]`",
+      "fullTitle": "ForagerBee class functionality should have a `treasureChest` property that is set to an empty array `[]`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "fullTitle": "ForagerBee class functionality should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `0`",
+      "fullTitle": "Grub class functionality should have an `age` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `pink`",
+      "fullTitle": "Grub class functionality should have a `color` property that is set to `pink`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is set to `jelly`",
+      "fullTitle": "Grub class functionality should have a `food` property that is set to `jelly`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method",
+      "fullTitle": "Grub class functionality should have an `eat` method",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should eat jelly",
+      "fullTitle": "Grub class functionality should eat jelly",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an age property that is set to `10`",
+      "fullTitle": "HoneyMakerBee class functionality should have an age property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a job property that is set to `make honey`",
+      "fullTitle": "HoneyMakerBee class functionality should have a job property that is set to `make honey`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a color property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "HoneyMakerBee class functionality should have a color property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a food property that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have a food property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an eat method that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have an eat method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `honeyPot` property that is set to `0`",
+      "fullTitle": "HoneyMakerBee class functionality should have a `honeyPot` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `5`",
+      "fullTitle": "Bee class functionality should have an `age` property that is set to `5`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `yellow`",
+      "fullTitle": "Bee class functionality should have a `color` property that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "Bee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "Bee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `Keep on growing`",
+      "fullTitle": "Bee class functionality should have a `job` property that is set to `Keep on growing`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `10`",
+      "fullTitle": "ForagerBee class functionality should have an `age` property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `find pollen`",
+      "fullTitle": "ForagerBee class functionality should have a `job` property that is set to `find pollen`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "ForagerBee class functionality should have a `color` property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `canFly` property that is set `true`",
+      "fullTitle": "ForagerBee class functionality should have a `canFly` property that is set `true`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `treasureChest` property that is set to an empty array `[]`",
+      "fullTitle": "ForagerBee class functionality should have a `treasureChest` property that is set to an empty array `[]`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "fullTitle": "ForagerBee class functionality should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `0`",
+      "fullTitle": "Grub class functionality should have an `age` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `pink`",
+      "fullTitle": "Grub class functionality should have a `color` property that is set to `pink`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is set to `jelly`",
+      "fullTitle": "Grub class functionality should have a `food` property that is set to `jelly`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method",
+      "fullTitle": "Grub class functionality should have an `eat` method",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an age property that is set to `10`",
+      "fullTitle": "HoneyMakerBee class functionality should have an age property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a job property that is set to `make honey`",
+      "fullTitle": "HoneyMakerBee class functionality should have a job property that is set to `make honey`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a color property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "HoneyMakerBee class functionality should have a color property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a food property that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have a food property that is inherited from grub",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an eat method that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have an eat method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `honeyPot` property that is set to `0`",
+      "fullTitle": "HoneyMakerBee class functionality should have a `honeyPot` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should have an `age` property that is set to `5`",
+      "fullTitle": "Bee class functionality should have an `age` property that is set to `5`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `yellow`",
+      "fullTitle": "Bee class functionality should have a `color` property that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "Bee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "Bee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `Keep on growing`",
+      "fullTitle": "Bee class functionality should have a `job` property that is set to `Keep on growing`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `10`",
+      "fullTitle": "ForagerBee class functionality should have an `age` property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `find pollen`",
+      "fullTitle": "ForagerBee class functionality should have a `job` property that is set to `find pollen`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "ForagerBee class functionality should have a `color` property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `canFly` property that is set `true`",
+      "fullTitle": "ForagerBee class functionality should have a `canFly` property that is set `true`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `treasureChest` property that is set to an empty array `[]`",
+      "fullTitle": "ForagerBee class functionality should have a `treasureChest` property that is set to an empty array `[]`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "fullTitle": "ForagerBee class functionality should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `0`",
+      "fullTitle": "Grub class functionality should have an `age` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `pink`",
+      "fullTitle": "Grub class functionality should have a `color` property that is set to `pink`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is set to `jelly`",
+      "fullTitle": "Grub class functionality should have a `food` property that is set to `jelly`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method",
+      "fullTitle": "Grub class functionality should have an `eat` method",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should eat jelly",
+      "fullTitle": "Grub class functionality should eat jelly",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an age property that is set to `10`",
+      "fullTitle": "HoneyMakerBee class functionality should have an age property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a job property that is set to `make honey`",
+      "fullTitle": "HoneyMakerBee class functionality should have a job property that is set to `make honey`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a color property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "HoneyMakerBee class functionality should have a color property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a food property that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have a food property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an eat method that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have an eat method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `honeyPot` property that is set to `0`",
+      "fullTitle": "HoneyMakerBee class functionality should have a `honeyPot` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `5`",
+      "fullTitle": "Bee class functionality should have an `age` property that is set to `5`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `yellow`",
+      "fullTitle": "Bee class functionality should have a `color` property that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "Bee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "Bee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `Keep on growing`",
+      "fullTitle": "Bee class functionality should have a `job` property that is set to `Keep on growing`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "Bee class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `10`",
+      "fullTitle": "ForagerBee class functionality should have an `age` property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `job` property that is set to `find pollen`",
+      "fullTitle": "ForagerBee class functionality should have a `job` property that is set to `find pollen`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "ForagerBee class functionality should have a `color` property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have a `food` property that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method that is inherited from grub",
+      "fullTitle": "ForagerBee class functionality should have an `eat` method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `canFly` property that is set `true`",
+      "fullTitle": "ForagerBee class functionality should have a `canFly` property that is set `true`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `treasureChest` property that is set to an empty array `[]`",
+      "fullTitle": "ForagerBee class functionality should have a `treasureChest` property that is set to an empty array `[]`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "fullTitle": "ForagerBee class functionality should have a `forage` method that allows the bee to add a `treasure` to the `treasureChest`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "ForagerBee class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `age` property that is set to `0`",
+      "fullTitle": "Grub class functionality should have an `age` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `color` property that is set to `pink`",
+      "fullTitle": "Grub class functionality should have a `color` property that is set to `pink`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `food` property that is set to `jelly`",
+      "fullTitle": "Grub class functionality should have a `food` property that is set to `jelly`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an `eat` method",
+      "fullTitle": "Grub class functionality should have an `eat` method",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "Grub class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an age property that is set to `10`",
+      "fullTitle": "HoneyMakerBee class functionality should have an age property that is set to `10`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a job property that is set to `make honey`",
+      "fullTitle": "HoneyMakerBee class functionality should have a job property that is set to `make honey`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a color property inherited from `bee` that is set to `yellow`",
+      "fullTitle": "HoneyMakerBee class functionality should have a color property inherited from `bee` that is set to `yellow`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a food property that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have a food property that is inherited from grub",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have an eat method that is inherited from grub",
+      "fullTitle": "HoneyMakerBee class functionality should have an eat method that is inherited from grub",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `honeyPot` property that is set to `0`",
+      "fullTitle": "HoneyMakerBee class functionality should have a `honeyPot` property that is set to `0`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `makeHoney` method that adds `1` to that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "fullTitle": "HoneyMakerBee class functionality should have a `giveHoney` method that subtracts `1` from that honeyBee's honeyPot",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "makes new instances that delegate to appropriate prototype object",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style makes new instances that delegate to appropriate prototype object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a .prototype.constructor property that points back to the constructor itself",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style has a .prototype.constructor property that points back to the constructor itself",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not extend the constructor function",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not extend the constructor function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does extend the constructor function's prototype",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does extend the constructor function's prototype",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reference the keyword this",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does reference the keyword this",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reference the return keyword",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not reference the return keyword",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not declare variables",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not declare variables",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does store properties without use of a prototype chain",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does store properties without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not store methods without use of a prototype chain",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not store methods without use of a prototype chain",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not reuse non-function objects across multiple instances",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does not reuse non-function objects across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does reuse methods across multiple instances",
+      "fullTitle": "HoneyMakerBee class functionality pseudoclassical instantiation style does reuse methods across multiple instances",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

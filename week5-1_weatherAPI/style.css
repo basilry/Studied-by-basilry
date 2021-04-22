@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+
+section {
+    margin: 0 auto;
+    background-color: rgb(160, 150, 150);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+input {
+    font-size: 20px;
+    height: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+button {
+    font-size: 20px;
+    height: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#name{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#form{
+    margin-top: 50px;
+    text-align: center;
+}
+#weatherview {
+    margin-top: 50px;
+    text-align: center;
+}
+#cityname{
+    font-weight: bold;
+    font-size: 40px;
+}
+#cityweather{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+}
+#celcius{
+    font-size: 60px;
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="https://kit.fontawesome.com/f522f277bd.js" crossorigin="anonymous"></script>
+  <script src="data.js"></script>
+</head>
+<body>
+  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+  <div id="greeting">twittler</div>
+
+  <section class="first_section">
+    <div id="login-interface">
+      <li class="username">Username</li>
+      <input type="text" id="username_written" placeholder="아이디를 입력해주세요">
+      <li class="message">Message</li>
+      <input type="text" id="message_written" placeholder="메시지를 입력해주세요">
+      <li class="upbutton">
+      <button id="upbutton">
+        <i class="fab fa-twitter"></i>
+      </button>
+      </li>
+    </div>
+    <div id="check">
+      <li class="check">
+          <button id="refresh_button">
+            <i class="fas fa-undo-alt"></i>
+            check new tweets
+          </button>
+          <button id="goBack_button">
+            <i class="fas fa-backward"></i>
+            Go backward
+          </button>
+      </li>
+    </div>
+  </section>
+
+  <section class="second_section">
+    <div id="Tweet-interface">
+      <!-- 트윗 들어갈 곳 예시 트리 -->
+      <!-- <ul class="timeline"> -->
+        <!-- <li class="human">
+          <span class="name">Mad.h.Clown</span>
+          <span class="date">2021-03-15 11:51:30</span>
+          <div class="tweet">Im not mommyson</div>
+        </li> -->
+      <!-- </ul> -->
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
