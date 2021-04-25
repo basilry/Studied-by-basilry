@@ -4,6 +4,7 @@
 * 깃관련 처리
   * 레포 폴더/파일 삭제 : git rm -rf '폴더 및 파일명' => git commit -m 'remove file' => 푸쉬
   * 레포 폴더/파일명 변경 : git mv oldName newName => 커밋 => 푸쉬
+  * 파일 올릴 때, 개인공부면 week0-0-1 로 뒤에 -1을 붙여 구분할 것!
 * TODO
   * 코드스테이츠 SE 부트캠프 Immersive Course의 과제 바로바로 올릴 것!
 * * *
