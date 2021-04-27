@@ -1,4 +1,4 @@
-//<1> 개념
+// <1> 개념
 
 // async와 await은 promise를 조금 더 간결하고 간편하고 그리고 동기적으로 실행되는 것처럼 보이게 만들어주는 것
 // 프로미스 체이닝이 이어지면 코드가 난잡해질 수 있기 때문에,
@@ -56,8 +56,8 @@ async function getBanana() {
 // }
 
 
-//위의 과일들을 한번에 다 가져오는 함수 만들기!!
-//프로미스 체이닝 방식
+// 위의 과일들을 한번에 다 가져오는 함수 만들기!!
+// 프로미스 체이닝 방식
 // function pickFruits() {
 //   return getApple()
 //   .then(apple => {
@@ -98,6 +98,6 @@ function pickAllFruits() {
 pickAllFruits().then(console.log);
 
 function pickOnlyOne() {
-  return Promise.race([getApple(), getBanana()])
+  return Promise.race([getApple(), getBanana()]) // 레이스를 하면 먼저 끝나는 애를 하나만 출력
 }
 pickOnlyOne().then(console.log)
