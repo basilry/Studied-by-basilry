@@ -88,10 +88,3 @@ getHen()
   // .then(meal => console.log(meal));
   .then(console.log) // 72번째 줄과 같이 움직임 // 이게 없으면 위의 오류 빵 리턴이 실행 안된다
   .catch(console.log)
-
-
-
-
-// <6> 콜백 헬을 프로미스로 바꿔보기
-// 자바스크립트 12. 프로미스 개념부터 활용까지 // 23:36부터..
-// https://youtu.be/JB_yU6Oe2eE
