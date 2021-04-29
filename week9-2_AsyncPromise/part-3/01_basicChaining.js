@@ -23,7 +23,7 @@ function getNewsAndWeather() {
   // return fetch(newsURL) // 2번방식
   // .then(response1 => response1.json())
   // .then(json => {
-  //   obj.news = json;
+  //   obj.news = json.data;
   //   return fetch(weatherURL);
   // })
   // .then(response2 => response2.json())
@@ -34,11 +34,11 @@ function getNewsAndWeather() {
 
   // return fetch(newsURL) // 1번방식
   // .then(response => response.json())
-  // .then(json1 => console.log(json1))
+  // .then(json => console.log(json.data))
   // .then(weatherURL => {
   //   return fetch(weatherURL)
   //   .then(response => response.json())
-  //   .then(json2 => console.log(json2))
+  //   .then(json => console.log(json))
   //   .catch(error => console.log(error))
   // })
   // .catch(error => console.log(error))

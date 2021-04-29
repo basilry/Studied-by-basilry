@@ -1,5 +1,5 @@
 const fs = require("fs");
-let options = {
+let options = { // rs.readFile에서 option인자를 그냥 'utf8'로 해도 된다
   encoding : 'utf8',
   flag : 'r'
 }
