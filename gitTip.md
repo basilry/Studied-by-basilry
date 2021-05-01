@@ -8,6 +8,8 @@
 * 파일 이동시 오타로 인해 이상한 메모파일이 생성되었을 때, 그냥 기존 파일 명을 새로 생성하고 메모장은 지워라(되돌리기는 아직 확인 못했음)
 * ! [rejected]        master -> master (fetch first) 라는 메시지가 뜰 경우 => git pull --rebase 원격저장소별칭 master
 * git init 취소 : rm -r .git
+* 깃 파일 삭제: 1.원격/로컬 동시 = git rm 'fileName', 2.원격만 = git rm --cached 'fileName' >> 커밋, 푸쉬
+* 깃 폴더 삭제: 1.원격/로컬 동시 = git rm -rf 'folderName', 2.원격만 = git rm --cached 'folderName/'
 
 * 깃 레포 새로 생성할때 
 git init
