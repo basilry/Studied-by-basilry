@@ -187,3 +187,106 @@
 // (7) abc:not(xyz) {속성: 값;}
 // 선택자 xyz가 아닌 abc요소를 선택.
 // ex) .frutis *:not(span) {color: red;}
+
+
+
+
+
+// <6> 선택자 : 가상 요소
+
+// (1) abc::before {속성: 값;}
+// 선택자 abc 요소의 내부 앞에 내용을 삽입.
+// 인라인, 글자 요소.
+// ex) 
+// css에서는 =>  .box::before {content: "앞!";}
+// html에서는 => <div class="box">Content!</div>
+// 브라우저에서는 => 앞!Content!
+
+
+// (2) abc::after {속성: 값;}
+// 선택자 abc 요소의 내부 뒤에 내용을 삽입.
+// 인라인, 글자 요소.
+// ex)
+// css에서는 =>  .box::after {content: 뒤!";}
+// html에서는 => <div class="box">Content!</div>
+// 브라우저에서는 => Content!뒤!
+
+
+// 위와같은 요소들은 모두 인라인(글자) 요소이기 때문에 width와 height가 먹지 않는다.
+// 그래서 이를 적용하려면 display: block; 이라고 스타일 속성에 추가를 해줘야 한다.
+
+
+
+
+
+// <7> 선택자 : 속성
+
+// (1) [abc] {속성: 값;}
+// 속성 abc를 포함한 요소를 선택한다.
+// 예시 html)
+// <input type="text" value="basilry">
+// <input type="password" value="1234">
+// <input type="text" value="abcd" diabled>
+
+// 위와 같은 상황일 시, [disabled]{color: red;}라고 한다면 3번째 요소가 적용된다.
+// 만약 [type]{color: red;}라고 한다면 3개의 요소 모두가 다 적용된다.
+// 이 때문에 특정되는 요소를 선택할 때는 좋지만, 그 외에는 모두가 다 해당되므로 좀 구리다.
+
+
+// (2) [abc="xyz"]{color: red;}
+// 속성 abc을 포함하고 값이 xyz인 요소 선택.
+// ex) [type="password"]{color: red;}라고 한다면 위의 예시에서 2번째 요소가 적용된다.
+
+
+
+
+
+// <8> 스타일 상속
+
+// (1) 기본내용
+// 예시 html
+// <div class="ecosystem">생태계
+//   <div class="animal">동물
+//     <div class="tiger">호랑이</div>
+//     <div class="lion">사자</div>
+//     <div class="elephant">코끼리</div>
+//   </div>
+//   <div class="plant">식물</div>
+// </div>
+
+// 이 상황에서 .animal {color: red;}라고 하면,
+// 화면에 출력될 때 animal 클래스를 지닌 엘리먼트 포함 그의 자식 엘리먼트들은 모두 빨간색으로 출력된다.
+
+// 이렇게 상속이 되는 css 속성들은 모두 글자/문자와 관련된 속성들이다.
+// 모든 글자/문자 속성은 아님에 주의하자.
+// ex) font-style, font-weight, font-size, line-height, font-family, color, text-align 등등..
+
+
+// (2) 강제 상속
+// 강제상속은 실질적으로 상속되지 않는 css 내용을 강제로 상속시키게끔 하는 것을 말한다.
+
+// html 예시
+// <div class="parent">
+//   <div class="children"></div>
+// </div>
+
+// css 예시
+// .parent {
+//   width: 300px;
+//   height: 200px;
+//   background-color: orange;
+// }
+// .children {
+//   width: 100px;
+//   height: inherit;
+//   background-color: inherit;
+//   position: fixed;
+//   top: 100px;
+//   right: 10px;
+// }
+
+// 이 상황에서 children이라는 클래스를 가진 엘리먼트의 css 속성으로 inherit을 하게 되면,
+// 상위 요소인 parent 클래스를 지닌 엘리먼트의 css 속성을 강제로 상속하게 된다.
+// 그래서 전체를 다 바꿀 필요 없이 parent만 바꾸면 된다.
+
+// *참고: 여기서 쓰인 position, top, right는 위치를 고정하고 확정하는 속성들이다.
