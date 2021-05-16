@@ -290,3 +290,77 @@
 // 그래서 전체를 다 바꿀 필요 없이 parent만 바꾸면 된다.
 
 // *참고: 여기서 쓰인 position, top, right는 위치를 고정하고 확정하는 속성들이다.
+
+
+
+
+
+// <9> 선택자 : 우선순위
+
+// 우선순위란?
+// 같은 요소가 여러 선언의 대상이 된 경우,
+// 어떤 선언의 css 속성을 우선 적용할지 결정하는 방법.
+// 1. 점수가 높은 선언이 우선한다.
+// 2. 점수가 같으면 가장 마지막에 해석된 선언이 우선한다.
+
+// ex) 과연 글자색은 무엇인가?
+// html 예시
+// <div 
+//   id="color_yellow" 
+//   class="color_green" 
+//   style="color: orange"> // 인라인 선언 1000점
+//   Hello World!
+// </div>
+
+// css 예시
+// div {
+//   color: red !important; //important 99999999점(무한대)
+// }
+// #color_yellow { // id 선택자 100점
+//   color: yellow;
+// }
+// .color_green { // class 선택자 10점
+//   color: green;
+// }
+// div { // 태그 선택자 1점
+//   color: blue;
+// }
+// * { // 전체 선택자 0점
+//   color: darkblue;
+// }
+// body { // 상속 x
+//   color: violet;
+// }
+
+// 이렇게 점수를 계산하는 것을 '명시도'라고 한다.
+// !important 키워드를 사용하는 것은 '중요도'라고 한다.
+// 점수가 같으면 나중의 해석이 우선되는 것을 '선언순서'라 한다.
+
+// ***예시문제
+// .list li.item {color: red;}
+// 10 + 1 + 10점 = 21점
+// 클래스+태그+클래스
+
+// .list li:hover {color: red;}
+// 10 + x + 10점 = 21점
+// 클래스+상속+(가상)클래스
+
+// .box::before {content: "Good "; color: red;}
+// 10 + 1 = 11점
+// 클래스+(가상)요소
+
+// #submit span {color: red;}
+// 100 + 1 = 101점
+// 아이디+태그
+
+// header .menu li:nth-child(2) {color: red;}
+// 1 + 10 + 1 + 10 = 22점
+// 태그+클래스+태그+(가상)클래스
+
+// h1 {color: red;}
+// 1점
+// 태그
+
+// :not(.box) {color: red;}
+// x + 10 = 10점
+// 부정+클래스
