@@ -33,8 +33,8 @@
 
 |번호|레포지토리 명|설명|
 |---|---|---|
-|01|*[Vanilla-Redux](https://github.com/basilry/vanilla-redux)*|노마드코더 리덕스 강의|
-
+|001|*[Vanilla-Redux](https://github.com/basilry/vanilla-redux)*|노마드코더 리덕스 강의|
+|002|*[nwitter](https://github.com/basilry/nwitter)*|노마드코더 트위터 클론코딩|
 
 
 
