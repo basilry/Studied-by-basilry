@@ -1,0 +1,75 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-05-24T02:08:51.669Z",
+    "end": "2021-05-24T02:08:52.410Z",
+    "duration": 741
+  },
+  "tests": [
+    {
+      "title": "데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "duration": 22,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "주문내역을 데이터베이스에 저장해야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 주문내역을 데이터베이스에 저장해야합니다.",
+      "duration": 29,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 0 to equal 2\n    at /Users/kimbasilry/Desktop/codestates/im-sprint-cmarket-database/server/spec/server-spec.js:88:36\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+      }
+    },
+    {
+      "title": "데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "주문내역을 데이터베이스에 저장해야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 주문내역을 데이터베이스에 저장해야합니다.",
+      "duration": 29,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 0 to equal 2",
+        "showDiff": true,
+        "actual": "0",
+        "expected": "2",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected 0 to equal 2\n    at /Users/kimbasilry/Desktop/codestates/im-sprint-cmarket-database/server/spec/server-spec.js:88:36\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 상품 목록을 가져와야합니다.",
+      "duration": 22,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "fullTitle": "Cmarket Database Cmarket Server 데이터베이스에 저장된 주문내역을 가져와야합니다.",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
