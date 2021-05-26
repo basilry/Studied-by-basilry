@@ -267,3 +267,99 @@
 // ex) opacity: 0.07; => 7%의 불투명도
 // opacity: 0.7; => 70%의 불투명도
 // opacity: 1; => 100%의 불투명도
+
+
+
+
+
+// <12> 글꼴
+
+// 글꼴을 변화시키는 것에 대한 이야기
+
+// <h> 태그 일시
+// (1) font-size : 글꼴 사이즈
+// 16px : 기본크기
+// 단위 : px, em 등..
+
+// (2) font-weight : 글꼴의 두께
+// normal, 400 
+// bold, 700
+// bolder, lighter
+// 100~900 설정가능
+
+// (3) font-style : 글자의 기울기
+// italic 등...
+
+
+// <p> 태그 일시
+// (4) width: 문단 태그의 넓이
+// padding, border, box-sizing 사용가능
+
+// (5) line-height : 한 줄의 높이, 행간과 유사
+// 숫자 : 요소의 글꼴 크기의 배수로 지정
+// 단위 : Px, em 등..
+// 만약 기본폰트사이즈인 16px일때 line-height를 2로 하면 2배인 32px이고,
+// 이를 정렬할 때는 행간의 중심에 글자들이 위치하게 된다
+
+
+// (6) font-family: 글꼴1, "글꼴2", ...글꼴계열;
+// => 띄어쓰기 등 특수문자가 포함된 글꼴 이름은 큰 따옴표로 묶는다.
+// 글꼴계열은 필수로 작성한다.
+// 가장 먼저 있는 글꼴을 사용하되, 만약 없다면 그 뒤의 글꼴들을 사용하는 것이 알고리즘.
+
+
+
+
+
+// <13> 문자
+
+// (1) color : 글자의 색상
+// 기본값 : rgb(0,0,0) 검정색
+// 색상 알아서 추가
+
+// (2) text-align : 문자의 정렬 방식
+// left, right, center, justify(양쪽정렬)
+
+// (3) text-decoration: 문자의 장식(선)
+// none, underline, overline(윗선), line-through(중앙선)
+
+// (4) text-indent: 문자 첫 줄의 들여쓰기
+// 0 들여쓰기 없음
+// 단위 px, em, rem 등
+// 음수를 사용하면 내어쓰기
+
+
+
+
+
+// <14> 배경
+
+// (1) background-color : 요소의 배경색상
+// 기본값: 투명함
+// 색상 지정가능
+
+// (2) background-image : 요소의 배경 이미지 삽입
+// 기본값: none
+// url("경로") 이미지 경로 함수
+
+// (3) background-size: 요소의 배경 이미지 크기
+// 기본값: auto(이미지의 실제 크기)
+// 단위: px, em, rem 등 단위(하나만 써도 가로세로 비율맞게 적용된다)
+// cover: 비율을 유지, 요소의 더 넓은 너비에 맞춤(자동으로 맞춰짐)
+// contain: 비율을 유지, 요소의 더 짧은 너비에 맞춤
+
+// (4) background-repeat: 요소의 배경 이미지 반복
+// 기본값 repeat: 이미지를 수직, 수평반복
+// repeat-x 이미지를 수평반복
+// repeat-y 이미지를 수직반복
+// no-repeat 반복 없음
+
+// (5) background-position: 요소의 배경이미지 위치
+// 기본값 0% => x:0, y:0인 시작점은 왼쪽 상단
+// 방향: top, bottom, left, right, center 방향
+// 단위: px, em, rem
+
+// (6) background-attachment: 요소의 배경 이미지 스크롤 특성
+// 기본값: scroll 이미지가 요소를 따라서 같이 스크롤
+// fixed: 이미지가 뷰포트에 고정, 스크롤x
+// local: 요소 내 스크롤 시 이미지가 같이 스크롤
