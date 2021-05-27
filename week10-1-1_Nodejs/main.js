@@ -15,21 +15,45 @@ var fs = require('fs');
 var url = require('url');
 
 var app = http.createServer(function(request,response){
-  var _url = request.url;
-  var queryData = url.parse(_url, true).query;
-    console.log(queryData.id)
-    if(_url == '/'){
-      _url = '/index.html';
+  // console.log(request)
+  // console.log(request.url) // /2.html
+  var _url = new URL(request.url, "https://localhost:3000");
+  var queryData = _url.href.query;
+  console.log(queryData)
+  // console.log(_url)
+  let title = queryData.title
+    console.log(queryData)
+    if(_url === '/'){
+      title = "Welcome"
     }
-    if(_url == '/favicon.ico'){
+    if(_url === '/favicon.ico'){
       return response.writeHead(404);
-      // response.end();
-      // return;
     }
     response.writeHead(200);
-    // console.log(__dirname + _url)
-    response.end(fs.readFileSync(__dirname + _url));
-    // response.end('basilry : ' + url) // 이걸 하면 그냥 흰 화면에 글자만 나옴
+    fs.readFile(`data/${title}`, 'utf8', function(err, description) {
+      var templeate = `
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>WEB1 - Welcome</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">WEB - ${title}</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+  <h2>${title}</h2>
+  <p>${description}</p>
+</body>
+</html>
+    `
+    response.end(templeate)
+    })
+    
+
  
 });
 app.listen(3000);
